@@ -75,4 +75,4 @@ function resetEvent() {
   const elem = document.getElementById("Counter");
   value = 0;
   number.innerHTML = value;
-}
+} 
