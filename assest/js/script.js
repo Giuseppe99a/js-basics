@@ -1,19 +1,3 @@
-const number = document.getElementById('Counter');
-
-let valueo=0;
-
-function add() {
-  value++;
-  number.innerHTML = value;
-}
-function subtract() {
-  value--;
-  number.innerHTML = value;
-}
-function reset() {
-  value = 0;
-  number.innerHTML = value;
-}
 
 
 
