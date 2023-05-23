@@ -1,5 +1,3 @@
-const p = document.body.appendChild(document.createElement("0"));
-
 
 
 var container = document.createElement("div");
