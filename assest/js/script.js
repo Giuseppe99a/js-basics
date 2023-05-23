@@ -40,50 +40,50 @@ function resetEvent() {
   value = 0;
   number.innerHTML = value;
 }
-{
+
 var container = document.createElement("div");
 container.className = "container";
 
 // Creazione del pulsante con ID "reset"
-var resetBtn = document.createElement("button");
-resetBtn.id = "Plus";
-resetBtn.textContent = "+";
+var plusBtn = document.createElement("button");
+plusBtn.id = "plus";
+plusBtn.textContent = "+";
 
 // Aggiunta del pulsante all'elemento <div>
-container.appendChild(PlusBtn);
+container.appendChild(plusBtn);
 
 // Aggiunta dell'elemento <div> al documento
 document.body.appendChild(container);
 
-resetBtn.addEventListener('click', PlusEvent); }
+plusBtn.addEventListener('click', plusEvent); 
 
 
 
-function PlusEvent() {
+function plusEvent() {
   const elem = document.getElementById("Counter");
   value++;
   number.innerHTML = value;
 }
-{
+
 var container = document.createElement("div");
 container.className = "container";
 
 // Creazione del pulsante con ID "reset"
-var resetBtn = document.createElement("button");
-resetBtn.id = "Minus";
-resetBtn.textContent = "-";
+var minusBtn = document.createElement("button");
+minusBtn.id = "Minus";
+minusBtn.textContent = "-";
 
 // Aggiunta del pulsante all'elemento <div>
-container.appendChild(MinusBtn);
+container.appendChild(minusBtn);
 
 // Aggiunta dell'elemento <div> al documento
 document.body.appendChild(container);
 
-resetBtn.addEventListener('click', MinusEvent);
-}
+minusBtn.addEventListener('click', minusEvent);
 
 
-function MinusEvent() {
+
+function minusEvent() {
   const elem = document.getElementById("Counter");
   value--;
   number.innerHTML = value;
