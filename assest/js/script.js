@@ -37,10 +37,12 @@ plusBtn.addEventListener('click', plusEvent);
 
 
 function plusEvent() {
+    value=0;
   const elem = document.getElementById("Counter");
   value++;
   number.innerHTML = value;
 }
+
 
 var container = document.createElement("div");
 container.className = "container";
@@ -61,6 +63,7 @@ minusBtn.addEventListener('click', minusEvent);
 
 
 function minusEvent() {
+    value=0;
   const elem = document.getElementById("Counter");
   value--;
   number.innerHTML = value;
