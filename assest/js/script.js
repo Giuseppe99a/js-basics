@@ -40,7 +40,7 @@ function resetEvent() {
   value = 0;
   number.innerHTML = value;
 }
-
+{
 var container = document.createElement("div");
 container.className = "container";
 
@@ -55,7 +55,7 @@ container.appendChild(PlusBtn);
 // Aggiunta dell'elemento <div> al documento
 document.body.appendChild(container);
 
-resetBtn.addEventListener('click', PlusEvent);
+resetBtn.addEventListener('click', PlusEvent); }
 
 
 
@@ -64,7 +64,7 @@ function PlusEvent() {
   value++;
   number.innerHTML = value;
 }
-
+{
 var container = document.createElement("div");
 container.className = "container";
 
@@ -80,7 +80,7 @@ container.appendChild(MinusBtn);
 document.body.appendChild(container);
 
 resetBtn.addEventListener('click', MinusEvent);
-
+}
 
 
 function MinusEvent() {
