@@ -1,5 +1,5 @@
-let number= document.createElement("0")
-number.className="container";
+let number= 0;
+
 var container = document.createElement("div");
 container.className = "container";
 
