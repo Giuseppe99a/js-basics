@@ -39,20 +39,6 @@ function plusEvent() {
   value++;
   number.innerHTML = value;
 }
-
-var plusBtn = document.createElement("input");
-valueBtn.id = "value";
-valueBtn.textContent = "0";
-
-container.appendChild(valueBtn);
-
-// Aggiunta dell'elemento <div> al documento
-document.body.appendChild(container);
-
-
-var container = document.createElement("div");
-container.className = "container";
-
 // Creazione del pulsante con ID "reset"
 var minusBtn = document.createElement("button");
 minusBtn.id = "Minus";
