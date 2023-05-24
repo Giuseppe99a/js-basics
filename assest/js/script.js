@@ -1,4 +1,5 @@
-
+let valueo=0;
+    console.log(value);
 
 var container = document.createElement("div");
 container.className = "container";
