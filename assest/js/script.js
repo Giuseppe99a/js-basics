@@ -2,17 +2,17 @@ document.body.onload = addElement;
 
 function addElement() {
   // create a new div element
-  const div = document.createElement("div");
+  const newdiv= document.createElement("div");
 
   // and give it some content
-  const value = document.createTextNode("0");
+  const newContent = document.createTextNode("0");
 
   // add the text node to the newly created div
-  div.appendChild(value);
+  div.appendChild(newContent);
 
   // add the newly created element and its content into the DOM
   const currentDiv = document.getElementById("div");
-  document.body.insertBefore(div, value);
+  document.body.appendChild(container);
 }
 
 var container = document.createElement("div");
