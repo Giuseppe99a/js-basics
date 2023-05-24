@@ -1,5 +1,3 @@
-let valueo=0;
-    console.log(value);
 
 var container = document.createElement("div");
 container.className = "container";
@@ -25,6 +23,10 @@ function plusEvent() {
   value++;
   number.innerHTML = value;
 }
+
+var plusBtn = document.createElement("input");
+valueBtn.id = "value";
+valueBtn.textContent = "0";
 
 
 var container = document.createElement("div");
