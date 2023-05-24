@@ -1,7 +1,7 @@
 
 var container = document.createElement("div")
 container.className = "container";
-var number =document.createElement("input")
+var number =document.createElement("var")
 number.id="value";
 number.textContent="0";
 container.appendChild(number);
