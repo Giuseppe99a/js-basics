@@ -1,4 +1,4 @@
-let number= 0;
+
 
 var container = document.createElement("div");
 container.className = "container";
